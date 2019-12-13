@@ -58,7 +58,7 @@ var arreglo = ["perro","gato","loro","tigre","jirafa"]
         return cell
         
     }
-    override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let idPdfSeleccionado = indexPath.row
         
